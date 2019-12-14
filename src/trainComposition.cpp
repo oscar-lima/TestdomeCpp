@@ -89,7 +89,7 @@ public:
             delete tmp;
             return tmpValue;
         }else{
-            return NULL;
+            return 0;
         }
     }
     
@@ -104,7 +104,7 @@ public:
             delete tmp;
             return tmpValue;
         }else{
-            return NULL;
+            return 0;
         }
     }
 };

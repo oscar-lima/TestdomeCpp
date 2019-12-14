@@ -32,6 +32,7 @@ public:
     }
     
 };
+
 class NumericInput: public TextInput{
 private:
     //std::string value;

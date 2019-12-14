@@ -138,31 +138,31 @@ private:
     std::string pastPath;
     std::string currentPath;
 };
-/*
+
 #ifndef RunTests
 int main()
 {
     Path path("/a/b/c/d");
     //test cases:
-    //path.cd("../x");  // '/a/b/c/x' -> example test case
-    //path.cd("..");  // '/a/b/c' -> relative pathname to parent directory
-    //path.cd("./x"); // '/a/b/c/d/x' -> relative pathname to child directory
-    //path.cd("x");   // '/a/b/c/d/x' -> relative pathname to child directory
-    //path.cd("/a/b/c"); // '/a/b/c' -> direct pathname to parent
-    //path.cd("../../x"); // '/a/b/x'
-    //path.cd("./x/../../y"); // 'a/b/c/y'
-    //path.cd("x/../../y"); // 'a/b/c/y'
-    //path.cd("../../../.."); // '/'
-    //path.cd("x/..");    // '/a/b/c/d'
-    //path.cd("");    // '/'
-    //path.cd("/");   // '/'
-    //path.cd("~");   // '/'
-    //path.cd(".");   // '/a/b/c/d
-    //path.cd("/x/y/z");  // '/x/y/z/' -> another direct pathname
-    //path.cd("x/y/z  ");   // '/a/b/c/d/x/y/z'
+    path.cd("../x");  // '/a/b/c/x' -> example test case
+    path.cd("..");  // '/a/b/c' -> relative pathname to parent directory
+    path.cd("./x"); // '/a/b/c/d/x' -> relative pathname to child directory
+    path.cd("x");   // '/a/b/c/d/x' -> relative pathname to child directory
+    path.cd("/a/b/c"); // '/a/b/c' -> direct pathname to parent
+    path.cd("../../x"); // '/a/b/x'
+    path.cd("./x/../../y"); // 'a/b/c/y'
+    path.cd("x/../../y"); // 'a/b/c/y'
+    path.cd("../../../.."); // '/'
+    path.cd("x/..");    // '/a/b/c/d'
+    path.cd("");    // '/'
+    path.cd("/");   // '/'
+    path.cd("~");   // '/'
+    path.cd(".");   // '/a/b/c/d
+    path.cd("/x/y/z");  // '/x/y/z/' -> another direct pathname
+    path.cd("x/y/z  ");   // '/a/b/c/d/x/y/z'
     path.cd("/a/b/c/../x"); // '/a/b/x'
     
     std::cout << path.getPath();
 }
 #endif
-*/
+
